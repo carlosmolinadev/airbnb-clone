@@ -1,38 +1,301 @@
-.App {
+/* Header Component */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  border: none;
+  width: 250px;
+  outline-width: 0;
+  padding: 10px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 20px;
+}
+
+/* End Header Component */
+
+/* Banner Component*/
+.banner {
+  background: url("./images/interior-1026452_1920.jpg") center center;
+  height: 50vh;
+  position: relative;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding: 20vh 50px 40px 50px;
+  width: 300px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  columns: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+/* End Banner */
+
+/* Search Component */
+.search {
+  position: absolute;
+  top: 35px;
+  left: 35%;
+  width: 100vw;
+}
+
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 345px;
+}
+
+.search > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 395px;
+  border: none;
+}
+
+.search > input:focus {
+  outline-width: 0;
+}
+
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 460px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 580px;
+}
+
+.search > button:hover {
+  color: #ff7779;
+  background-color: white;
+}
+
+/* End Search Component */
+
+/* Home Component */
+.home__section {
+  display: flex;
+  padding: 20px;
+}
+/* End Home Component */
+
+/* Card Component */
+.card {
+  margin: 10px;
+  border: 0px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
+
+.card > img {
+  object-fit: fill;
+  min-width: 300px;
+  min-height: 200px;
+  width: 100%;
+}
+
+.card__info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  border: 1;
+}
+
+.card__info > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card__info > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* End Card Component */
+
+/* Footer Component */
+.footer {
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  background-color: #f7f7f7;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer > p {
+  padding: 5px;
+  font-size: 14px;
+}
+/* End Footer Component */
+
+/* SearchPage Component */
+.searchPage__info {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchPage__info > p {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchPage__info > h1 {
+  margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+  border-radius: 30px;
+  text-transform: inherit;
+  margin: 5px;
+}
+/* End SearchPage Component */
+
+/* SearchPageResult Component */
+
+.searchResults {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.searchResults:hover {
+  opacity: 0.8;
+}
+
+.searchResults > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchResult__info {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.searchResult__heart {
+  position: absolute;
+  right: 40px;
+  top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchResult__infoTop {
+  width: 40vw;
 }
+
+.searchResult__infoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.searchResult__infoTop > p {
+  font-weight: 10px;
+  color: gray;
+}
+
+.searchResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchResult__stars {
+  display: flex;
+}
+
+.searchResult__star {
+  color: red;
+}
+
+.searchResult__price > p {
+  text-align: right;
+}
+
+.searchResult__price {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+/* End SearchPageResult Component */

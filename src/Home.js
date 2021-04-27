@@ -11,28 +11,28 @@ function Home() {
         <Card
           title={"Paris"}
           description={
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+            "Paris (nicknamed the 'City of light') is the capital city of France, and the largest city in France. ... Paris is also the center of French economy, politics, traffic and culture."
           }
           src={
-            "https://cdn.pixabay.com/photo/2016/03/09/09/45/paris-1245970_960_720.jpg"
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
           }
         />
         <Card
           title={"Paris"}
           description={
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+            "Paris (nicknamed the 'City of light') is the capital city of France, and the largest city in France. ... Paris is also the center of French economy, politics, traffic and culture."
           }
           src={
-            "https://cdn.pixabay.com/photo/2016/03/09/09/45/paris-1245970_960_720.jpg"
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
           }
         />
         <Card
           title={"Paris"}
           description={
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+            "Paris (nicknamed the 'City of light') is the capital city of France, and the largest city in France. ... Paris is also the center of French economy, politics, traffic and culture."
           }
           src={
-            "https://cdn.pixabay.com/photo/2016/03/09/09/45/paris-1245970_960_720.jpg"
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
           }
         />
       </div>
@@ -40,31 +40,31 @@ function Home() {
         <Card
           title={"Paris"}
           description={
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+            "Paris (nicknamed the 'City of light') is the capital city of France, and the largest city in France. ... Paris is also the center of French economy, politics, traffic and culture."
           }
           src={
-            "https://cdn.pixabay.com/photo/2016/03/09/09/45/paris-1245970_960_720.jpg"
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
           }
           price={"$50.00"}
         />
         <Card
           title={"Paris"}
           description={
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+            "Paris (nicknamed the 'City of light') is the capital city of France, and the largest city in France. ... Paris is also the center of French economy, politics, traffic and culture."
           }
           src={
-            "https://cdn.pixabay.com/photo/2016/03/09/09/45/paris-1245970_960_720.jpg"
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
           }
           price={"$150.00"}
         />
         <Card
-          title={"Paris"}
-          description={
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
-          }
-          src={
-            "https://cdn.pixabay.com/photo/2016/03/09/09/45/paris-1245970_960_720.jpg"
-          }
+           title={"Paris"}
+           description={
+             "Paris (nicknamed the 'City of light') is the capital city of France, and the largest city in France. ... Paris is also the center of French economy, politics, traffic and culture."
+           }
+           src={
+             "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
+           }
           price={"$250.00"}
         />
       </div>
